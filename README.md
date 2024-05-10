@@ -41,7 +41,7 @@ Essa é a continuação do projeto que foi desenvolvido durante o [Bootcamp Back
 
 - [Ana Paula Kelm Soares](https://github.com/anapppp)
 - [Beatriz Martins Cabral](https://github.com/Bea-Martins)
-- [Carla Morais]
+- [Carla Morais](https://github.com/Duda-Batista)
 - [Eva Luana Almeida da Silva](https://github.com/evalasilva)
 - [Letícia dos Santos](https://github.com/ldsleticia)
 - [Maria Eduarda Abreu](https://github.com/maria-eduarda-abreu)
