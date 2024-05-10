@@ -1,81 +1,53 @@
 # WoMakersLib 2.0
 
+Esse é um projeto do e-commerce de uma livraria. 
 
+## Deploy
 
-<br>
-<h1> Deploy </h1>
+Confira o Deploy do projeto aqui:
 
-https://paulagmborges.pythonanywhere.com
-
-<br>
-<h3>Integrantes:</h3>
-<ul>
-<li>Ana Paula Kelm Soares</li>
-<li>Beatriz Martins Cabral</li>
-<li>Carla Morais</li>
-<li>Eva Luana Almeida da Silva</li>
-<li>Letícia dos Santos</li>
-<li>Maria Eduarda Abreu</li>
-<li>Paula Borges</li>
-<li>Renata Biagioni Wrobleski</li>
-<li>Sarah Affonço</li>
-</ul>
-<h3>Divisão e organização entre os exercícios:</h3>
-<br>    
-<a href="https://trello.com/b/2TH5CzmX/squad-marie-curie-womakers-code" target="_blank">
-      <img height="48px" width="48px" alt="Icone Trello" src="https://cdn.icon-icons.com/icons2/3041/PNG/512/trello_logo_icon_189227.png">
-</a>
-
-<a href="https://drawsql.app/teams/squadmariecurrie/diagrams/books" target="_blank">
- <img height="48px" width="48px" alt="icone drawsql" src="https://pbs.twimg.com/profile_images/1016937460167684101/9wRBzBNZ_400x400.jpg">
-</a>
-
-<br>
-<h3>Modelo de Banco de Dados:</h3>
-<br>
-O modelo de banco de dados pode ser encontrado no link a seguir e também no mermaid diagram abaixo
-
----
+>  https://paulagmborges.pythonanywhere.com
 
 # Configurando o projeto 
 
-1. No terminal de comando verifique:
- Instalação python: `python --version`
- Instalação `pip: pip --version`
- Se necessário atualize: `python -m pip install --upgrade pip` 
+Certifique-se de que o python está instalado. Em seguida, mude para o diretório [src](./src/) crie um ambiente virtual: 
 
-3. Criando e ativando ambiente virtual
-    ```
-   python -m venv .venv
-    ```
-    ```     
-    ativa o venv: .\Scripts\activate
-    ``` 
+```
+python -m venv .venv
+```
 
-5. instalando django:  `pip install django` 
-    Instalando djanjo paypal > `pip install django-paypal`
-    Confirmar funcionamento : `python manage.py runserver`
-    (devolve March 25, 2024 - 15:12:01
-    Django version 5.0.3, using settings 'livraria.settings'
-    Starting development server at http://127.0.0.1:8000/
-    Quit the server with CTRL-BREAK.)
+Em seguida, ative o ambiente virtual acionando o arquivo `.\Scripts\activate`
 
-------------------------
 
 ## Requirements
 
-- Para instalar todos as bibliotecas, use o requirements.txt
-
-Entrar no seu ambiente virtual, e depois 
+Para instalar todos as bibliotecas necessárias, use o arquivo `requirements.txt`. Entre no seu ambiente virtual, e depois:
 ```
 pip install -r requirements.txt
 ```
 
-- Para atualizar os requirements
+Para atualizar os requirement, entrar no ambiente virtual, e depois 
 
-Entrar no ambiente virtual, e depois 
 ```
 pip freeze > requirements.txt
 ```
 
 > Evite enviar para o git o **pyvenv.cfg**, e as pastas **Lib** e **Scripts**
+
+
+# Agradecimentos
+
+Essa é a continuação do projeto que foi desenvolvido durante o [Bootcamp Back-end Python e Django 2024/02](https://womakerscode.org/back-end-python/). Por isso, não podemos deixar de agradecer, e dar crédito para a equipe inicial:
+
+- [Ana Paula Kelm Soares](https://github.com/anapppp)
+- [Beatriz Martins Cabral](https://github.com/Bea-Martins)
+- [Carla Morais]
+- [Eva Luana Almeida da Silva](https://github.com/evalasilva)
+- [Letícia dos Santos](https://github.com/ldsleticia)
+- [Maria Eduarda Abreu](https://github.com/maria-eduarda-abreu)
+- [Paula Borges](https://github.com/paulagmborges)
+- [Renata Biagioni Wrobleski](https://github.com/RenWro)
+- [Sarah Affonço](https://github.com/sarahaffonco)
+
+
+ Veja o repositório com o projeto inicial [aqui](https://github.com/RenWro/Desafio-Final-Womakers). 
