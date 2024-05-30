@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos do Cliente</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap5 %}
+{% bootstrap_messages %}
+{% bootstrap_css %}
+{% block title %}Pedidos{% endblock %}
+
+
+{% block content %}
+    
+<span class="separator">
+    Pedidos
+</span>
+    
+<main>
+
     <h1>Pedidos do Cliente</h1>
     <ul>
         {% for pedido in pedidos %}
@@ -19,5 +27,7 @@
             </li>
         {% endfor %}
     </ul>
-</body>
-</html>
+
+    
+</main>
+{% endblock %}
