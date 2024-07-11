@@ -6,7 +6,7 @@ Esse é um projeto do e-commerce de uma livraria.
 
 Confira o Deploy do projeto aqui:
 
->  https://paulagmborges.pythonanywhere.com
+>  https://womakerslib.pythonanywhere.com/
 
 # Configurando o projeto 
 
