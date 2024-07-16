@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-+&ytte$*$eu*f@n8o#%0-+payst3ro4!&8&4rhc-9y3j6rxec@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['womakerslib.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'womakerslib.pythonanywhere.com',
+    '127.0.0.1']
 
 
 # Application definition
@@ -124,6 +126,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / "static"
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'livro', 'static'),
+]
+
+# armazenamento de arquivos estáticos
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -134,11 +144,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 PAYPAL_RECEIVER_EMAIL = 'sb-i8hit30199572@business.example.com'
 PAYPAL_TEST = True
 
-# armazenamento de arquivos estáticos
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-
 # MERCADOPAGO = {
 #     'autoprocess': True,
 #     'success_url': 'myapp:mp_success',
@@ -147,10 +152,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #     'base_host': 'https://www. meusite.com'
 # }
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR, 'livro', 'static'),
-]
 
 AUTH_USER_MODEL = "cliente.Cliente"
 
